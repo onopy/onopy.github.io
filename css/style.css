@@ -1,6 +1,11 @@
 header {
     width: 100%;
     height: auto;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
 }
 
 section {
@@ -8,6 +13,8 @@ section {
 }
 
 .header-image {
+    overflow: hidden;
+    display: inline-block;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -34,18 +41,15 @@ section {
 }
 
 .main {
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    width: 700px;
     font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 }
 
 .center {
+    overflow: hidden;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
-    width: 700px;
+    width: 100%;
 }
 
 a {
